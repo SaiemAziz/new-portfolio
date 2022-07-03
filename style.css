@@ -2,8 +2,7 @@ body{
     font-size: 1vw;
     margin: 0;
     background-image: linear-gradient(rgba(0, 255, 255, 0.747),rgba(63, 248, 63, 0.856));
-    height: 150vh;
-
+    height: 150em;
 }
 #top{
     font-family: 'Montserrat', sans-serif;
@@ -27,22 +26,21 @@ body{
     color: rgb(206, 134, 0);
 }
 #top img{
-    padding: 3em;
-    width: 40%;
-    height: 40%;
+    padding: 3em 3em 3em 8em;
+    width: 42%;
+    height: 42%;
 }
 #mid img{
     padding: 3em;
-    width: 40%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
 }
 #top-left{   
     width: 50vw;
-    padding-right: 2em;
-    /* padding-top: 2em; */
 }
 #mid-right{   
     width: 50vw;
+    padding: 3em 0 3em 5em;
 }
 h1{
     font-size: 3.5em;
