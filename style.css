@@ -9,11 +9,14 @@ body{
     width: 100em;
 }
 #top{
-    
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
     width: 100vw;
     display: flex;
+}
+#sayem{
+    padding: 3em;
+    width: 30em;
+    height: 30em;
 }
 h1{
     font-size: 3.5em;
@@ -29,12 +32,6 @@ h3{
 }
 p{
     font-size: 1.5em;
-}
-#top-right{
-    padding: 3.5em ;
-}
-#top-right img{
-    width: 30em;
 }
 #top-left{   
     width: 50vw;
