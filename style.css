@@ -10,10 +10,24 @@ body{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+#mid{
+
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    display: flex;
+    padding:1.5em;
+    margin-top: 8em;
+    background-repeat: no-repeat;
+}
 #sayem{
     padding: 3%;
     width: 35%;
     height: 35%;
+}
+#mid img{
+    padding: 3em;
+    width: 40%;
+    height: 40%;
 }
 h1{
     font-size: 3.5em;
@@ -29,11 +43,16 @@ h3{
 }
 p{
     font-size: 1.5em;
+    text-align: justify;
 }
 #top-left{   
     width: 50vw;
     padding-right: 2em;
     padding-top: 2em;
+}
+#mid-right{   
+    width: 48vw;
+    padding-right: 2em;
 }
 button{
     color: burlywood;
