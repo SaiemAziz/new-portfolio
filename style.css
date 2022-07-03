@@ -1,13 +1,13 @@
 body{
     font-size: 1vw;
     margin: 0;
+    background-image: linear-gradient(rgba(0, 255, 255, 0.747),rgba(63, 248, 63, 0.856));
 }
 #top{
     font-family: 'Montserrat', sans-serif;
     width: 100vw;
     display: flex;
     padding:1.5em 5em;
-    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
 #mid{
@@ -19,7 +19,7 @@ body{
     margin-top: 8em;
     background-repeat: no-repeat;
 }
-#sayem{
+#top img{
     padding: 3%;
     width: 35%;
     height: 35%;
@@ -35,7 +35,7 @@ h1{
 #name{
     padding-top: 0em;
     font-size: 1.2em;
-    color: orange;
+    color: rgb(206, 134, 0);
 }
 h3{
     padding-top: 0.5em;
