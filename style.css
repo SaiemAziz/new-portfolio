@@ -1,0 +1,43 @@
+body{
+    font-size: 1vw;
+    margin: 0;
+}
+#banner{
+    width: 7em;
+}
+#banner img{
+    width: 100em;
+}
+#top{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    width: 100vw;
+    display: flex;
+}
+h1{
+    font-size: 3.5em;
+}
+#name{
+    padding-top: 0em;
+    font-size: 1.2em;
+    color: orange;
+}
+h3{
+    padding-top: 0.5em;
+    font-size: 2.2em;
+}
+p{
+    font-size: 1.5em;
+}
+#top-right{
+    padding: 3.5em ;
+}
+#top-right img{
+    width: 30em;
+}
+#top-left{   
+    width: 50vw;
+    padding-right: 2em;
+    padding-top: 2em;
+}
