@@ -2,21 +2,18 @@ body{
     font-size: 1vw;
     margin: 0;
 }
-#banner{
-    width: 7em;
-}
-#banner img{
-    width: 100em;
-}
 #top{
     font-family: 'Montserrat', sans-serif;
     width: 100vw;
     display: flex;
+    padding:1.5em 5em;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 #sayem{
-    padding: 3em;
-    width: 30em;
-    height: 30em;
+    padding: 3%;
+    width: 35%;
+    height: 35%;
 }
 h1{
     font-size: 3.5em;
@@ -37,4 +34,13 @@ p{
     width: 50vw;
     padding-right: 2em;
     padding-top: 2em;
+}
+button{
+    color: burlywood;
+    font-weight: bolder;
+    background-image: linear-gradient(red, blue);
+    padding: 0.4em 1em;
+    font-size: 2em;
+    border: 0 solid;
+    border-radius: 0.7em;
 }
