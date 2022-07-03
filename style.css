@@ -2,6 +2,8 @@ body{
     font-size: 1vw;
     margin: 0;
     background-image: linear-gradient(rgba(0, 255, 255, 0.747),rgba(63, 248, 63, 0.856));
+    height: 150vh;
+
 }
 #top{
     font-family: 'Montserrat', sans-serif;
@@ -11,7 +13,7 @@ body{
     background-repeat: no-repeat;
 }
 #mid{
-
+    
     font-family: 'Montserrat', sans-serif;
     width: 100vw;
     display: flex;
@@ -19,23 +21,31 @@ body{
     margin-top: 8em;
     background-repeat: no-repeat;
 }
+#name{
+    padding-top: 0em;
+    font-size: 1.2em;
+    color: rgb(206, 134, 0);
+}
 #top img{
-    padding: 3%;
-    width: 35%;
-    height: 35%;
+    padding: 3em;
+    width: 40%;
+    height: 40%;
 }
 #mid img{
     padding: 3em;
     width: 40%;
     height: 40%;
 }
+#top-left{   
+    width: 50vw;
+    padding-right: 2em;
+    /* padding-top: 2em; */
+}
+#mid-right{   
+    width: 50vw;
+}
 h1{
     font-size: 3.5em;
-}
-#name{
-    padding-top: 0em;
-    font-size: 1.2em;
-    color: rgb(206, 134, 0);
 }
 h3{
     padding-top: 0.5em;
@@ -44,15 +54,6 @@ h3{
 p{
     font-size: 1.5em;
     text-align: justify;
-}
-#top-left{   
-    width: 50vw;
-    padding-right: 2em;
-    padding-top: 2em;
-}
-#mid-right{   
-    width: 48vw;
-    padding-right: 2em;
 }
 button{
     color: burlywood;
