@@ -1,46 +1,55 @@
 body{
     font-size: 1vw;
     margin: 0;
-    background-image: linear-gradient(rgba(0, 255, 255, 0.747),rgba(63, 248, 63, 0.856));
+    /* border: 1px solid purple ; */
+    background-repeat: no-repeat;
     height: 150em;
+    font-family: 'Montserrat', sans-serif;
 }
 #top{
-    font-family: 'Montserrat', sans-serif;
-    width: 100vw;
+    background-image: url(images/top-banner.png);
     display: flex;
-    padding:1.5em 5em;
+    padding:1.5em 3em;
+    /* border: 1px solid purple ; */
     background-repeat: no-repeat;
 }
 #mid{
-    
+    background-image: url(images/dream-bg.png);
     font-family: 'Montserrat', sans-serif;
-    width: 100vw;
     display: flex;
     padding:1.5em;
+    /* border: 1px solid purple ; */
     margin-top: 8em;
     background-repeat: no-repeat;
+    background-position: right;
 }
-#name{
+.name{
     padding-top: 0em;
     font-size: 1.2em;
-    color: rgb(206, 134, 0);
+    color: rgb(255, 166, 0);
 }
 #top img{
-    padding: 3em 3em 3em 8em;
-    width: 42%;
-    height: 42%;
+    height: 40em;
+    width: 40em;
+    padding: 2em 0 0 2em;
+    margin-left: 3em;
+    /* border: 1px solid rgb(128, 0, 0) ; */
 }
 #mid img{
-    padding: 3em;
     width: 45%;
+    /* border: 1px solid rgb(128, 0, 0) ; */
     height: 45%;
+    padding-left: 2em;
 }
 #top-left{   
     width: 50vw;
+    padding: 0 0 0 1em;
+    /* border: 1px solid rgb(128, 0, 0) ; */
 }
 #mid-right{   
-    width: 50vw;
-    padding: 3em 0 3em 5em;
+    width: 48vw;
+    /* border: 1px solid rgb(128, 0, 0) ; */
+    padding: 3em 0 3em 3em;
 }
 h1{
     font-size: 3.5em;
@@ -54,11 +63,44 @@ p{
     text-align: justify;
 }
 button{
-    color: burlywood;
+    color: white;
     font-weight: bolder;
-    background-image: linear-gradient(red, blue);
+    background-image: linear-gradient(orange, tomato);
     padding: 0.4em 1em;
     font-size: 2em;
     border: 0 solid;
     border-radius: 0.7em;
+}
+#ex{
+    margin-left: 1em;
+}
+.dream{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 6em;
+    background-position:left;
+}
+.half-left{
+    width: 50vw;
+    box-shadow: 10px 10px 20px 7px rgba(0,0,0,0.3); 
+    padding: 2em;
+    margin: 3em;
+    border-left: 5px solid rgb(255, 81, 0);
+    border-radius: 5px;
+}
+.half-right{
+    /* border: 1px solid red; */
+    border-left: 5px solid blue;
+    width: 50vw;
+    box-shadow: 10px 10px 20px 7px rgba(0, 0, 0, 0.3); 
+    padding: 2em;
+    margin: 3em;
+    border-radius: 5px;
+}
+.half-left h3{
+    font-size: 2.2em;
+}
+.half-right h3{
+    font-size: 2.2em;
 }
