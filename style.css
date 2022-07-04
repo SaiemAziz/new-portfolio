@@ -86,17 +86,17 @@ button{
     box-shadow: 10px 10px 20px 7px rgba(0,0,0,0.3); 
     padding: 2em;
     margin: 3em;
-    border-left: 5px solid tomato;
-    border-radius: 5px;
+    border-left: 0.6em solid tomato;
+    border-radius: 0.6em;
 }
 .half-right{
     /* border: 1px solid red; */
-    border-left: 5px solid blue;
+    border-left: 0.6em solid blue;
     width: 50vw;
     box-shadow: 10px 10px 20px 7px rgba(0, 0, 0, 0.3); 
     padding: 2em;
     margin: 3em;
-    border-radius: 5px;
+    border-radius: 0.6em;
 }
 .half-left h3{
     font-size: 2.2em;
